@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Best Buy</title>
+    <style>
+        img:hover{
+            transform: scale(0.9);
+            
+        }
+        button{
+            border: none;
+        }
+        #heading2 > div >a:hover{
+            background-color: #FF7043;
+            color: white;
+            transition: background-color .4s;
+        }
+        button{
+            box-shadow: 1.5px 1.5px red, -0.1em 0 .05em olive;
+        }
+        button:hover{
+            background-color: #FFF176;
+            color: black;
+            transition: background-color .5s;
+        }
+        #heading{
+            background-color: #1976D2;
+        }
+        #heading1, #heading2{
+            display: flex;
+        }
+        .bestbuyimg{
+            background-color: #1976D2;
+            width: 100%;
+            margin: auto;
+        }
+        #bestbuyimg{
+            background: #1976D2;
+            width: 30%;
+            height: 60px;
+            margin: 5% 0 1% 12%;
+        }
+        #menu{
+            margin: 2% 0 0 -13%;
+            height: 30px;
+            background: #1976D2;
+            color: white;
+            font-weight: 600;
+            font-family: inherit;
+            font-size: 22px;
+        } 
+        #searchoption{
+            display: flex;
+            height: 30px;
+            width: 35%;
+            margin: 1.6% 0 0 3%;
+            border-radius: 20px;
+        }
+        #searchbestbuy{
+            height: 100%;
+            width: 93%;
+            border-radius: 5px;
+            font-weight: 600;
+            font-family: inherit;
+            font-size: inherit;
+        }
+        #searchbestbuysy{
+            height: 35px;
+            border-radius: 5px;
+            width: 7%;
+        }
+        #aiea{
+            margin: 1.5% 0 0 15%;
+            height: 40px;
+            background-color: #1976D2;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        #heading2{
+            display: flex;
+            margin: 1% 0 0 3%;
+            vertical-align: middle;
+        }
+        #heading2>div:nth-child(1){
+           margin: 0 8% 0 0;
+           display: flex;
+           width: 60%;
+        }
+        #heading2>div:nth-child(2){
+           display: flex;
+           width: 30%;
+        }
+        .deals{
+           background-color: #1976D2;
+           margin-bottom: 1.5%;
+           margin-right: 2%;
+           font-weight: 500;
+           font-size: 14px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        body{
+            background-color: #E1F5FE;
+        }
+        .account{
+           background-color: #1976D2;
+           margin-bottom: 2.5%;
+           margin-right: 2%;
+           font-size: 14px;
+           font-weight: 800;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #cont2{
+            margin-top: -5.3%;
+            width: 28%; 
+        }
+        .continueshop{
+            background-color: #1976D2;
+            height: 5%;
+            width: 70%;
+            margin-left: 15%;
+            color: white;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <div id="heading1">
+        <a href="aamainpagebestbuy.html"><button id="bestbuyimg"><img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png" class="bestbuyimg"/></button></a> 
+        <select id="menu">
+            <option>&equiv;Menu</option>
+            <option>Deals</option>
+            <option>Support & service</option>
+            <option>Brands</option>
+            <option>Featured</option>
+            <option>Appliances</option>
+            <option>TV & Home Theater</option>
+            <option>Computers & Tablets</option>
+            <option>Cameras, Camcorder & Drones</option>
+            <option>Cell Phone</option>
+            <option>Audio</option>
+            <option>Video Games</option>
+            <option>Movies & Music</option>
+            <option>Car Electonics & GPS</option>
+            <option>Wearable Technology</option>
+            <option>Health, Fitness & Personal Care</option>
+            
+        </select>
+            <div id="searchoption">
+                <input type="text" placeholder="Search Best buy" id="searchbestbuy"/>
+                <button style="background-color: white;" id="searchbestbuysy">&#128269;</button>
+            </div>
+        <button id="aiea">Aiea</button>
+        </div>
+        <hr/>
+        <div id="heading2">
+            <div>
+                <a href="topdeals.html" class="deals"  style="margin-top: 0.1%;">Top deals</a>
+                <a href="dealsoftheday.html" class="deals" style="margin-top: 0.1%;">Deals Of the Day Best buy</a>
+                <a href="health&wellness.html" class="deals" style="margin-top: 0.1%;">Health & wellness</a>
+                <button class="deals">Credit cards</button>
+                <button class="deals">Gift cards</button>
+                <button class="deals">Gift Ideas</button>
+                <button class="deals">Best Buy business</button>
+            </div>
+            <div>
+                <a href="createaccount.html" class="account" style="margin-top: 1%;">Create Account</a>
+                <a href="signinbestbuy.html" class="account" style="margin-top: 1%; margin-left: 1.5%;">Sign In</a>
+                <a href="orderstatus.html" class="account" style="margin-top: 1%; margin-left: 1.5%;">Order Status</a>
+
+                <a href="saveditems.html" class="account" style="margin-top: 1%; margin-left: 1.5%;">Saved Items</a>
+            </div>
+        </div>
+    </div>
+    <div id="cont" style="margin-left: 2%;"></div>
+    <div id="maincont" style="display: flex;">
+        
+        <div id="cont1"></div>
+        <div id="cont2">
+            <h2 style="text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Order Summary</h2>
+            <hr/>
+            <div style="display: flex;">
+                <h3 style="margin-left: 8%;">Total Amount</h3>
+                <h3 style="margin-left: 40%;">&#36;</h3>
+                <h3 id="totalprice"></h3>
+            </div>
+            <a href="aamainpagebestbuy.html"><button class="continueshop" style="height: 40px;">Continue Shopping </button></a> 
+            <br/>
+            <a href="payment.html"><button class="continueshop" onclick="makepayment()" style="margin-top: 3%; height: 40px;">Make Payment</button></a>
+            
+
+
+            <img src="https://img.freepik.com/free-vector/promo-code-sale-banner_180786-45.jpg?size=626&ext=jpg" style="height: 10%; width: 100%;margin-top: 3%;"/>
+            <h3 style="margin-left: 15%;">Save upto 30%</h3>
+            <form onsubmit="checkpromo(event)" id="checkpro">
+                <input type="text" id="promo" placeholder="Enter Promo Code" style="width: 70%; height: 20px; margin-left: 15%;"/>
+                <input type="submit" style="margin-left: 45%; margin-top: 2%;"/>
+            </form>
+            <hr/>
+            <h3 style="margin-left: 8%;">Looking for a lease to own option?</h3>
+            <p style="margin-left: 8%;">Enjoy the tech you want today. Learn more ></p>
+        </div>
+    </div>
+
+
+
+
+    <hr/>
+    <div id="cont9" style="display: flex; background-color: #303F9F; gap: 2%;">
+        <h1 style="color: yellow; margin-left: 11%; margin-top: 2.3%;">
+            Get the latest deals and more.
+        </h1>
+        <input type="text" placeholder="Enter email address" style="height: 40px; margin-top: 2%; width: 22%; border-radius: 15px;"/>
+        <a href="signinbestbuy.html"><button style="background-color: yellow; height: 45px;  margin-top: 40%; font-size: 18px; border-radius: 10px;">
+            Sign In
+        </button></a>
+        <div style="background-color: white; height: 50px; width: 1px;  margin-top: 2.3%;"></div>
+        <div>
+            <h1 style="color: yellow;">Best Buy app</h1>
+            <h5 style="margin-top: -15px; color: white; font-size: 15px;">Learn more ›</h5>
+        </div>
+    </div>
+    <div id="cont10" style="display: flex; gap: 8%; color: blue; font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color:#E1F5FE;">
+        <div style="margin-left: 12%;">
+            <h3>My Best Buy ›</h3>
+            <p>View Points & Certificates</p>
+            <p>Member Offers</p>
+            <p>Sign in or Create Account</p>
+            <h3>Credit Cards ›</h3>
+            <p>Make a Payment at Citibank</p>
+            <p>Check Balance at Citibank</p>
+            <p>Credit Card Offers</p>
+            <p>Apply Now</p>
+        </div>
+        <div>
+            <h3>Orders & Returns ›</h3>
+            <p>Order Status</p>
+            <p>Shipping, Delivery & Store Pickup</p>
+            <p>Return & Exchange Promise</p>
+            <p>Price Match Guarantee</p>
+            <h3>Lease to Own ›</h3>
+            <p>Apply Now</p>
+        </div>
+        <div>
+            <h3>Get Support ›</h3>
+            <p>Visit our Support Center</p>
+            <p>Schedule a Service</p>
+            <p>Manage an Appointment</p>
+            <p>Shop with an Expert</p>
+            <p>Protection & Support Plans</p>
+            <p>Trade-In Program</p>
+            <p>Product Recalls</p>
+        </div>
+        <div>
+            <h3>Partnerships ›</h3>
+            <p>Affiliate Program</p>
+            <p>Developers</p>
+            <p>Best Buy Health</p>
+            <p>Best Buy Education</p>
+            <p>Best Buy Business</p>
+            <p>Best Buy Canada</p>
+            <p>Advertise with Us</p>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+        let cont = document.getElementById('cont')
+    let cont1 = document.getElementById('cont1')
+    cont1.style.margin = "2%"
+    cont1.style.width = "69%";
+    cont1.style.display = "grid";
+    cont1.style.gridTemplateColumns = "auto auto auto";
+    let cont2 = document.getElementById('cont2')
+    let data = JSON.parse(localStorage.getItem("bestbuycart"));
+    let div1 = document.createElement('div')
+    let msg = document.createElement('h2')
+
+
+    msg.innerText = "Ooops! Your Cart is empty";
+    msg.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
+    let msg1 = document.createElement('p')
+    msg1.innerText = "Just browsing? You can create an account and start earning reward points whenever you make a purchase."
+    msg.style.marginTop = "-2%"
+    msg1.style.marginTop = "-1%"
+
+    if(data == null){
+        div1.append(msg, msg1)
+        cont.append(div1)
+        cont.style.marginTop = "3%"
+    }
+    if(data.length == 0){
+        div1.append(msg, msg1)
+        cont.append(div1)
+        cont.style.marginTop = "3%"
+    }
+    
+
+
+    let div2 = document.createElement('div');
+    let num = document.createElement('h2');
+    let no = document.createElement('h2')
+    num.innerHTML = "Number Of items in Cart : &nbsp;";
+    num.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
+    no.innerText = data.length;
+
+    let numdiv = document.createElement('div')
+
+    numdiv.append(num, no)
+    numdiv.style.display = "flex"
+    if(data.length>0){
+        div2.append(numdiv, msg1)
+        cont.append(div2)
+    }
+   
+    
+
+    function showcart(){
+        
+    
+        data.forEach(function(prod){
+            let div = document.createElement('div')
+                let img = document.createElement('img')
+                img.src = prod.img;
+                img.style.width = "250px"
+                img.style.height = "250px"
+                img.style.marginLeft = "5%"
+                img.style.marginTop = "2%"
+                let name = document.createElement('p')
+                name.style.color = "blue";
+                name.style.marginLeft = "1.5%";
+                name.innerText = prod.name;
+                let price = document.createElement('p')
+                let pricesy = document.createElement('spna')
+                pricesy.innerHTML = "&#36;"
+                price.style.marginLeft = "1.5%";
+                let pricemo = document.createElement('span')
+                pricemo.innerText = prod.price;
+
+                
+
+                let div2 = document.createElement('div')
+                div2.style.display = "flex";
+                let btn1 = document.createElement('button')
+                btn1.innerText = "-"
+                btn1.style.fontSize = "19px"
+                let btn2 = document.createElement('input')
+                btn2.value = 1;
+                btn2.style.width = "45px"
+                btn2.style.textAlign = "center"
+                let btn3 = document.createElement('button')
+                btn3.innerText = "+"
+                btn3.style.fontSize = "19px"
+
+               
+                btn1.onclick = function(){
+                    negative(btn2, pricemo, prod)
+                }
+                btn3.onclick = function(){
+                    positive(btn2, pricemo, prod)
+                }
+                
+                div2.append(btn1, btn2, btn3);
+                price.append(pricesy, pricemo);
+                div.append(img, name, price, div2);
+                cont1.append(div)
+        })
+
+        
+        
+    }
+    showcart(data)
+
+    let c = 0;
+    function checkpromo(e){
+        e.preventDefault();
+        let input = document.getElementById('checkpro')
+        let promo = input.promo.value;
+        let tot = document.getElementById('totalprice')
+        //c++
+        if(promo == "masai"){
+            if(c==0){
+                tot.innerHTML = tot.innerHTML*0.7;
+            c++;
+            } else if(c>0){
+                alert('You have entered same promo code twice')
+                tot.textContent = tot.textContent;
+            }
+           
+            input.promo.value = "";
+        } else {
+            alert("Invalid Promocode")
+            input.promo.value = "";
+        }
+    }
+
+    let totalprice = document.getElementById("totalprice")
+        let tot = 0;
+        let par = JSON.parse(localStorage.getItem("bestbuycart"))
+        par.forEach(function(par){
+            tot = tot + par.price;
+        })
+        totalprice.append(tot)
+
+
+    function positive(btn2, pricemo, prod){
+        btn2.value = +btn2.value + 1;
+        
+        pricemo.innerText = +pricemo.innerText + prod.price;
+        //console.log(pricemo.innerText)
+        let totalprice = document.getElementById("totalprice")
+        let tot = 0;
+        let par = JSON.parse(localStorage.getItem("bestbuycart"))
+        par.forEach(function(par){
+            tot = tot + par.price;
+        })
+        //console.log(par.length)
+        let alltotal = tot + +pricemo.innerHTML - prod.price;
+        totalprice.innerHTML = ""
+        totalprice.append(alltotal)
+     
+
+
+        let data = JSON.parse(localStorage.getItem("bestbuycart"));
+            let div2 = document.createElement('div');
+            let num = document.createElement('h2');
+            let no = document.createElement('h2')
+            num.innerHTML = "Number Of items in Cart : &nbsp;";
+            num.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
+            no.innerText = data.length;
+            console.log(no.innerHTML)
+            let msg1 = document.createElement('p')
+            msg1.innerText = "Just browsing? You can create an account and start earning reward points whenever you make a purchase."
+            msg.style.marginTop = "-2%"
+            msg1.style.marginTop = "-1%"
+
+            let numdiv = document.createElement('div')
+            numdiv.style.display = "flex"
+            let cont = document.getElementById('cont')
+            cont.innerHTML = ""
+            let totalcount = document.createElement('h2')
+            totalcount.innerHTML = +no.innerHTML + +btn2.value -1;
+
+            numdiv.append(num, totalcount)
+            
+            
+            div2.append(numdiv, msg1)
+            cont.append(div2)
+    }
+
+
+    function negative(btn2, pricemo, prod){
+
+        if(+btn2.value>1){
+            btn2.value = +btn2.value - 1;
+            pricemo.innerText = +pricemo.innerText - prod.price;
+
+            let totalprice = document.getElementById("totalprice")
+            let tot = 0;
+            let par = JSON.parse(localStorage.getItem("bestbuycart"))
+            par.forEach(function(par){
+            tot = tot + par.price;
+            })
+        //console.log()
+            let alltotal = tot + +pricemo.innerHTML - prod.price;
+            totalprice.innerHTML = ""
+            totalprice.append(alltotal)
+
+
+
+            let data = JSON.parse(localStorage.getItem("bestbuycart"));
+            let div2 = document.createElement('div');
+            let num = document.createElement('h2');
+            let no = document.createElement('h2')
+            num.innerHTML = "Number Of items in Cart : &nbsp;";
+            num.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
+            no.innerText = data.length;
+            console.log(no.innerHTML)
+            let msg1 = document.createElement('p')
+            msg1.innerText = "Just browsing? You can create an account and start earning reward points whenever you make a purchase."
+            msg.style.marginTop = "-2%"
+            msg1.style.marginTop = "-1%"
+
+            let numdiv = document.createElement('div')
+            numdiv.style.display = "flex"
+            let cont = document.getElementById('cont')
+            cont.innerHTML = ""
+            let totalcount = document.createElement('h2')
+            totalcount.innerHTML = +no.innerHTML + +btn2.value -1;
+
+            numdiv.append(num, totalcount)
+            
+            
+            div2.append(numdiv, msg1)
+            cont.append(div2)
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    if(localStorage.getItem("payment") === null){
+            localStorage.setItem("payment", JSON.stringify([]));
+        }
+    let pay = document.getElementById('totalprice').innerHTML;
+    //console.log(pay)
+    function makepayment(){
+        //e.preventDefault();
+
+        
+        var amount = {
+            price: pay
+        }
+        var arr = JSON.parse(localStorage.getItem("payment"))
+        arr.push(amount);
+        localStorage.setItem("payment", JSON.stringify(arr));
+
+        window.location.href = "payment.html"
+    }
+</script>
